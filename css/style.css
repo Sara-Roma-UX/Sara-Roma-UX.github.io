@@ -1,0 +1,630 @@
+
+@font-face{
+  font-family: "Roboto-bold";
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face{
+  font-family: "Roboto-light";
+  src: url("../fonts/Roboto-Light.ttf");
+ 
+}
+
+@font-face{
+  font-family: "Roboto-regular";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face{
+  font-family: "Roboto-black";
+  src: url("../fonts/Roboto-Black.ttf");
+}
+@font-face{
+  font-family: "Mistral";
+  src: url("../fonts/mistral/MISTRAL.TTF");
+}
+
+
+header {
+
+  width: 1168px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 133px;
+  margin-bottom: 85px;
+
+}
+
+h4{
+  font-family: "Mistral";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 48px;
+  color: #828282;
+}
+
+.perfil{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 68px;
+}
+
+
+.flecha-uno{
+  margin-left: 40px;
+  margin-top: 24px;
+}
+
+.nombre{
+  display: flex;
+  align-items: center;
+}
+
+h1{
+  font-family: "Roboto-black";
+font-style: normal;
+font-weight: 900;
+font-size: 200px;
+line-height: 234px;
+
+color: #000000;
+}
+
+h2{
+  font-family: "Roboto-black";
+font-style: normal;
+font-weight: 900;
+font-size: 200px;
+line-height: 234px;
+
+  background: url("../images/profile.jpg") no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position-x: -80px;
+
+}
+
+
+.intro{
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-family: "Roboto-bold";
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+}
+
+#about{
+  font-family: "Roboto-light";
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.004em;
+
+color: #000000;
+
+
+width: 828px;
+margin-left: auto;
+margin-right: auto;
+}
+
+main{
+  width: 1168px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.proyectos{
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 68px;
+}
+
+.flecha-dos{
+ transform: scaleX(-1);
+ margin-right: 40px;
+ margin-left: 70px;
+ margin-top: 20px;
+}
+.card{
+  display: flex;
+  align-items: flex-start;
+  width: 1168px;
+  height: 280px;
+  background-color: #F6F6F6;
+  margin-top: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card:hover{
+  text-decoration: none;
+  background-color: #EEEEEE;
+
+}
+
+
+.imagen-proyecto{
+  width: 393px;
+height: 280px;
+border-radius: 4px 0 0 4px;
+}
+
+h5{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+letter-spacing: 0.004em;
+
+color: #000000;
+
+width: 495px;
+height: 90px;
+margin-left: 48px;
+margin-top: 40px;
+margin-bottom: 24px;
+}
+
+p{
+  font-family: "Roboto-light";
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+letter-spacing: 0.004em;
+
+color: #000000;
+}
+
+.descipcion-proyecto{
+  width: 624px;
+height: 78px;
+margin-left: 48px;
+margin-bottom: 48px;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.contacto{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+  width: 742px;
+  margin-top: 120px;
+
+}
+
+.flecha-tres{
+  margin-left: 40px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  width: 742px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+}
+
+
+#texto-contacto{
+  font-family: "Roboto-light";
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+letter-spacing: 0.004em;
+
+color: #000000;
+
+width: 476px;
+text-align: left;
+}
+
+#contacto-telefono{
+  display: flex;
+  justify-content: flex-end;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  /* identical to box height, or 167% */
+  
+  
+  color: #000000;
+}
+
+#contacto-email{
+  display: flex;
+  justify-content: flex-end;
+
+font-family: "Roboto-regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  /* identical to box height, or 167% */
+  
+  
+  color: #000000;
+}
+
+@media only screen and (min-width: 415px) and (max-width: 768px){
+  header {
+
+    width: 675px;
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 72px;
+    margin-bottom: 56px;
+  
+  }
+  
+h4{
+  font-size: 36px;
+line-height: 36px;
+}
+.perfil{
+  margin-right: 40px;
+}
+
+.flecha-uno{
+  width: 48px;
+  height: 48px;
+  margin-left: 26px;
+  margin-top: 14px;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 116px;
+  line-height: 136px;
+}
+
+h2{
+  font-weight: 900;
+font-size: 116px;
+line-height: 136px;
+
+background-position-x: -65px;
+}
+
+.intro{
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+h3{
+  font-size: 24px;
+  line-height: 28px;
+}
+
+#about{
+  font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+
+width: 566px;
+}
+
+main{
+  width: 675px;
+}
+
+.proyectos{
+  margin-right: 91px;
+}
+
+.flecha-dos{
+  width: 48px;
+  height: 48px;
+  margin-right: 26px;
+ margin-left: 52px;
+ margin-top: 16px;
+}
+
+.card{
+  width: 675px;
+  height: 213px;
+
+  margin-top: 24px;
+}
+
+.imagen-proyecto{
+  width: 299px;
+  height: 213px;
+}
+
+
+h5{
+  font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+width: 303px;
+height: 84px;
+margin-left: 24px;
+margin-top: 24px;
+margin-bottom: 8px;
+}
+
+p{
+  font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+}
+
+
+.descipcion-proyecto{
+  width: 335px;
+  height: 72px;
+margin-left: 24px;
+margin-bottom: 24px;
+}
+.responsive{
+  display: none;
+}
+
+
+
+.contacto{
+  width: 648px;
+  margin-top: 72px;
+}
+
+.flecha-tres{
+  width: 48px;
+  height: 48px;
+  margin-left: 26px;
+  margin-right: 88px;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+.info{
+  width: 648px;
+  margin-bottom: 143px;
+}
+
+#texto-contacto{
+  font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+width: 387px;
+}
+
+#contacto-telefono{
+  font-size: 22px;
+line-height: 40px;
+}
+
+#contacto-email{
+  font-size: 22px;
+  line-height: 40px;
+}
+}
+
+@media only screen and (max-width: 414px){
+
+header {
+
+    width: 329px;
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 32px;
+  
+  }
+  
+h4{
+  font-size: 24px;
+line-height: 24px;
+/* identical to box height */
+}
+.perfil{
+  margin-right: 16px;
+}
+
+.flecha-uno{
+
+  width: 36px;
+height: 36px;
+
+  margin-left: 16px;
+  margin-top: 14px;
+}
+
+
+
+h1{
+  font-weight: 900;
+font-size: 56px;
+line-height: 66px;
+}
+
+h2{
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 66px;
+
+background-position-x: -30px;
+}
+
+.intro{
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+h3{
+  font-size: 20px;
+  line-height: 23px;
+}
+
+#about{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  /* or 144% */
+
+  width: 312px;
+}
+
+main{
+  width: 328px;
+}
+
+.proyectos{
+  margin-right: 48px;
+}
+
+.flecha-dos{
+  width: 36px;
+  height: 36px;
+  
+  margin-right: 16px;
+ margin-left: 32px;
+ margin-top: 11px;
+ margin-bottom:  16px;
+}
+
+.card{
+  flex-direction: column;
+  width: 326px;
+  height: 444px;
+
+  margin-top: 0px;
+
+  margin-bottom: 24px;
+}
+
+.imagen-proyecto{
+  width: 327px;
+  height: 235px;
+
+  border-radius: 4px 4px 0px 0px;
+}
+
+
+h5{
+  font-size: 16px;
+  line-height: 23px;
+  /* or 144% */
+
+  width: 312px;
+  height: 69px;
+margin-left: 8px;
+margin-top: 16px;
+margin-bottom: 8px;
+}
+
+p{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+}
+
+.descipcion-proyecto{
+  width: 335px;
+  height: 72px;
+margin-left: 8px;
+}
+
+.contacto{
+
+  justify-content: flex-start;
+  width: 312px;
+  margin-top: 32px;
+}
+
+.flecha-tres{
+  width: 36px;
+height: 36px;
+
+  margin-left: 26px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 32px;
+}
+
+.info{
+  width: 312px;
+  margin-bottom: 100px;
+
+  flex-direction: column;
+}
+
+.datos{
+  order: -1;
+}
+
+#texto-contacto{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  /* or 144% */
+  
+  text-align: center;
+width: 312px;
+}
+
+#contacto-telefono{
+  font-size: 18px;
+line-height: 40px;
+/* identical to box height, or 222% */
+
+width: 151px;
+margin-left: auto;
+margin-right: auto;
+
+justify-content: center;
+}
+
+#contacto-email{
+  font-size: 18px;
+  line-height: 40px;
+  /* identical to box height, or 222% */  
+
+  width: 151px;
+    margin-left: auto;
+  margin-right: auto;
+
+  justify-content: center;
+}
+}
