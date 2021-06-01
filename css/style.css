@@ -176,11 +176,11 @@ letter-spacing: 0.004em;
 
 color: #000000;
 
-width: 495px;
+width: 671px;
 height: 90px;
 margin-left: 48px;
 margin-top: 40px;
-margin-bottom: 24px;
+margin-bottom: 16px;
 }
 
 p{
@@ -276,6 +276,19 @@ font-family: "Roboto-regular";
   font-size: 24px;
   line-height: 40px;
   /* identical to box height, or 167% */
+}
+
+#contacto-linkedin{
+    display: flex;
+    justify-content: flex-end;
+  
+  font-family: "Roboto-regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    text-decoration: underline;
+    /* identical to box height, or 167% */
   
   
   color: #000000;
