@@ -84,9 +84,7 @@ line-height: 234px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-position-x: -80px;
-
 }
-
 
 .intro{
   margin-top: 40px;
@@ -154,9 +152,7 @@ main{
 .card:hover{
   text-decoration: none;
   background-color: #EEEEEE;
-
 }
-
 
 .imagen-proyecto{
   width: 393px;
@@ -209,12 +205,13 @@ a{
 
 
 .contacto{
+width: 275px;
+height: 155px;
   display: flex;
-  justify-content: flex-end;
   margin-left: auto;
   margin-right: auto;
   width: 742px;
-  margin-top: 120px;
+  margin-top: 88px;
 
 }
 
@@ -227,34 +224,32 @@ a{
 
 .info{
   display: flex;
-  justify-content: space-between;
-  width: 742px;
+  flex-direction: column;
+  width: 275px;
   margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 200px;
+  margin-right: auto;  
+  margin-top: 88px;
 }
 
-
-#texto-contacto{
-  font-family: "Roboto-light";
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 30px;
-/* or 150% */
-
-letter-spacing: 0.004em;
-
-color: #000000;
-
-width: 476px;
-text-align: left;
+.telefono{
+  display: flex;
+  justify-content: right;
 }
+
+.email{
+  display: flex;
+  justify-content: right;
+}
+
+.linkedin{
+  display: flex;
+  justify-content: right;
+}
+
 
 #contacto-telefono{
   display: flex;
-  justify-content: flex-end;
-  
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -266,9 +261,17 @@ text-align: left;
   color: #000000;
 }
 
+#icono-telefono{
+  margin-right: 48px;
+}
+
+#icono-email{
+  margin-right: 48px;
+}
+
 #contacto-email{
   display: flex;
-  justify-content: flex-end;
+  margin-left: 48px;
 
 font-family: "Roboto-regular";
   font-style: normal;
@@ -280,7 +283,7 @@ font-family: "Roboto-regular";
 
 #contacto-linkedin{
     display: flex;
-    justify-content: flex-end;
+    margin-left: 48px;
   
   font-family: "Roboto-regular";
     font-style: normal;
@@ -292,6 +295,23 @@ font-family: "Roboto-regular";
   
   
   color: #000000;
+}
+
+.despedida{
+  width: 308px;
+  height: 105px;
+  display: flex;
+  margin-top: 48px;
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+}
+
+
+.titulo-cuatro{
+  margin-left: 40px;
+  margin-top: 72px;
 }
 
 @media only screen and (min-width: 415px) and (max-width: 768px){
@@ -323,13 +343,13 @@ line-height: 36px;
 
 h1{
   font-weight: 900;
-  font-size: 116px;
+  font-size: 115px;
   line-height: 136px;
 }
 
 h2{
   font-weight: 900;
-font-size: 116px;
+font-size: 115px;
 line-height: 136px;
 
 background-position-x: -65px;
@@ -411,36 +431,6 @@ margin-bottom: 24px;
   display: none;
 }
 
-
-
-.contacto{
-  width: 648px;
-  margin-top: 72px;
-}
-
-.flecha-tres{
-  width: 48px;
-  height: 48px;
-  margin-left: 26px;
-  margin-right: 88px;
-  margin-top: 20px;
-  margin-bottom: 32px;
-}
-
-.info{
-  width: 648px;
-  margin-bottom: 143px;
-}
-
-#texto-contacto{
-  font-weight: 300;
-font-size: 18px;
-line-height: 30px;
-/* or 167% */
-
-width: 387px;
-}
-
 #contacto-telefono{
   font-size: 22px;
 line-height: 40px;
@@ -450,6 +440,22 @@ line-height: 40px;
   font-size: 22px;
   line-height: 40px;
 }
+
+.despedida{
+  width: 158px;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 148px;
+}
+
+.flecha-cuatro{
+  width: 48px;
+  height: 48px;
+}
+
+.titulo-cuatro{
+  margin-left: 24px;
+  margin-top: 32px;
 }
 
 @media only screen and (max-width: 414px){
