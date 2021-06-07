@@ -277,8 +277,7 @@ height: 155px;
 #contacto-email{
   display: flex;
   margin-left: 48px;
-
-font-family: "Roboto-regular";
+  font-family: "Roboto-regular";
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -289,8 +288,7 @@ font-family: "Roboto-regular";
 #contacto-linkedin{
     display: flex;
     margin-left: 48px;
-  
-  font-family: "Roboto-regular";
+    font-family: "Roboto-regular";
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -392,61 +390,61 @@ font-family: "Roboto-regular";
    margin-top: 16px;
   }
 
-  .card{
+.card{
     width: 675px;
     height: 213px;
 
     margin-top: 24px;
-  }
+}
 
-  .imagen-proyecto{
+.imagen-proyecto{
     width: 299px;
     height: 213px;
-  }
+}
 
 
-  h5{
+h5{
     font-size: 18px;
   line-height: 28px;
   /* or 156% */
   margin-left: 24px;
   margin-top: 24px;
-  }
+}
 
-  p {
+p {
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
-  }
+}
 
 
-  .descipcion-proyecto {
+.descipcion-proyecto {
     width: 335px;
     height: 72px;
     margin-left: 24px;
     margin-bottom: 24px;
-  }
+}
 
-  .responsive {
+.responsive {
     display: none;
-  }
+}
 
-  #contacto-telefono {
+#contacto-telefono {
     font-size: 22px;
     line-height: 40px;
-  }
+}
 
-  #contacto-email {
+#contacto-email {
     font-size: 22px;
     line-height: 40px;
-  }
+}
 
-  .despedida {
+.despedida {
     width: 158px;
     height: 40px;
     margin-top: 40px;
     margin-bottom: 148px;
-  }
+}
 
   .flecha-cuatro {
     width: 48px;
@@ -469,7 +467,7 @@ font-family: "Roboto-regular";
   }
 
   h4 {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 24px;
     /* identical to box height */
   }
@@ -528,7 +526,7 @@ font-family: "Roboto-regular";
     width: 36px;
     height: 36px;
     margin-right: 16px;
-    margin-left: 32px;
+    margin-left: 24px;
     margin-top: 11px;
     margin-bottom:  16px;
   }
@@ -536,7 +534,7 @@ font-family: "Roboto-regular";
   .card {
     flex-direction: column;
     width: 326px;
-    height: 444px;
+    height: auto;
     margin-top: 0px;
     margin-bottom: 24px;
     background: #FFF;
@@ -584,13 +582,7 @@ font-family: "Roboto-regular";
     margin-top: 16px;
     margin-left: 0;
     margin-bottom: 0;
-  }
-
-  .contacto {
-    justify-content: flex-start;
-    width: 312px;
-    margin-top: 32px;
-  }
+}
 
   .flecha-tres {
     width: 36px;
@@ -599,44 +591,31 @@ font-family: "Roboto-regular";
     margin-right: 50px;
     margin-top: 10px;
     margin-bottom: 32px;
-  }
+}
 
-  .info {
-    width: 312px;
-    margin-bottom: 100px;
-    flex-direction: column;
-  }
-
-  .datos {
-    order: -1;
-  }
-
-  #texto-contacto {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 23px;
-    /* or 144% */
-    text-align: center;
-    width: 312px;
-  }
+.info {
+  margin-top: 40px;
+}
 
   #contacto-telefono {
-    font-size: 18px;
-    line-height: 40px;
-    /* identical to box height, or 222% */
-    width: 151px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-  }
+    font-size: 16px;
+    line-height: 32px;
+}
 
   #contacto-email {
-    font-size: 18px;
-    line-height: 40px;
-    /* identical to box height, or 222% */  
-    width: 151px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-  }
+    font-size: 16px;
+    line-height: 32px;
+    margin-left: 32px;
+}
+
+#contacto-linkedin {
+  font-size: 16px;
+  line-height: 32px;
+  margin-left: 32px;
+}
+
+#icono-telefono {
+  margin-right: 32px;
+}
+
 }
