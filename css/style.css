@@ -405,10 +405,18 @@ height: 155px;
 
 h5{
     font-size: 18px;
-  line-height: 28px;
+  line-height: 32px;
   /* or 156% */
+  width: auto;
   margin-left: 24px;
   margin-top: 24px;
+}
+
+h6 {
+  font-size: 16px;
+  margin-left: 24px;
+  width: 335px;
+  line-height: 24px;
 }
 
 p {
